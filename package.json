@@ -1,0 +1,33 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Nodejs with Express boilerplate for REST api",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahammervold/express-boilerplate.git"
+  },
+  "author": "nahammervold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nahammervold/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nahammervold/express-boilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0"
+  }
+}
